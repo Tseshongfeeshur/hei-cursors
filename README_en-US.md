@@ -34,7 +34,7 @@ yay -S hei-cursors
 paru -S hei-cursors
 ```
 
-**Or**, install manually **(not recommended, as** `pacman` **will not track the package)**.
+**Or**, install manually **(not recommended, as `pacman` will not track the package)**.
 
 ### Manual Installation
 

@@ -34,7 +34,7 @@ yay -S hei-cursors
 paru -S hei-cursors
 ```
 
-**或**参见下文手动安装**（不建议，会导致 `pacman` 无法追踪该包）**。
+**或**参见下文手动安装 **（不建议，会导致 `pacman` 无法追踪该包）**。
 
 ### 其他（手动安装）
 
@@ -45,7 +45,7 @@ git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
 mv ./hei_cursors ~/.local/share/icons/
 ```
 
-**或**为**所有用户**安装**（不建议）**：
+**或**为**所有用户**安装 **（不建议）**：
 
 ```bash
 git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
