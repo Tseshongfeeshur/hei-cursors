@@ -1,0 +1,7 @@
+[Icon Theme]
+Name=Hei
+Name[zh_CN]=罗小黑
+Comment=Hei Cursor Theme. Created by Bilibili user 1013625945 (漓翎_cub), ported by GitHub user Tseshongfeeshur (Ryan).
+Comment[zh_CN]=罗小黑主题鼠标指针。由哔哩哔哩用户 1013625945（漓翎_cub）创作，由 GitHub 用户 Tseshongfeeshur（Ryan）移植。
+Inherits=core
+Directories=cursors
