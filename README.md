@@ -11,7 +11,7 @@
 
 ## 项目内容
 
-- 以在[《罗小黑战记》](https://www.bilibili.com/bangumi/play/ep32374)系列作品中出场的角色“罗小黑”为原型，由**[漓翎_cub](https://space.bilibili.com/1013625945)**设计并制作
+- 以在[《罗小黑战记》](https://www.bilibili.com/bangumi/play/ep32374)系列作品中出场的角色“罗小黑”为原型，由[**漓翎_cub**](https://space.bilibili.com/1013625945)设计并制作
 - **大部分**为动态图标
 - 支持 **24 / 32 / 48 / 64 / 96 / 128 / 192 / 256** 多分辨率
 
@@ -54,6 +54,6 @@ sudo mv ./hei_cursors /usr/share/icons/
 
 ## 鸣谢
 
-- **原作者**[漓翎_cub](https://space.bilibili.com/1013625945)，没有他的付出，就没有这个项目
+- **原作者**[**漓翎_cub**](https://space.bilibili.com/1013625945)，没有他的付出，就没有这个项目
 - [`win2xcur`](https://github.com/quantum5/win2xcur)，它提供了 Windows 鼠标指针格式（`.cur/.ani`）到 Xcursor 格式的近乎无损的转换方案
 - `xorg-xcursorgen`，它为多分辨率图标的生成提供了很便捷的方式
