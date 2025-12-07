@@ -55,5 +55,5 @@ sudo mv ./hei_cursors /usr/share/icons/
 ## 鸣谢
 
 - **原作者**[**漓翎_cub**](https://space.bilibili.com/1013625945)，没有他的付出，就没有这个项目
-- [`win2xcur`](https://github.com/quantum5/win2xcur)，它提供了 Windows 鼠标指针格式（`.cur/.ani`）到 Xcursor 格式的近乎无损的转换方案
+- [`win2xcur`](https://github.com/quantum5/win2xcur)，它提供了 Windows 鼠标指针格式（`.cur` / `.ani`）到 Xcursor 格式的近乎无损的转换方案
 - `xorg-xcursorgen`，它为多分辨率图标的生成提供了很便捷的方式

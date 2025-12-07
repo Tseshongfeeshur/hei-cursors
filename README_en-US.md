@@ -56,5 +56,5 @@ sudo mv ./hei_cursors /usr/share/icons/
 
 - **Original author** [漓翎_cub](https://space.bilibili.com/1013625945).
   Without his contribution, this project would not exist.
-- [`win2xcur`](https://github.com/quantum5/win2xcur), for providing an almost lossless converter from Windows `.cur/.ani` to Xcursor format
+- [`win2xcur`](https://github.com/quantum5/win2xcur), for providing an almost lossless converter from Windows `.cur` / `.ani` to Xcursor format
 - `xorg-xcursorgen`, for making multi-resolution cursor generation convenient and reliable
