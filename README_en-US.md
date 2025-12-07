@@ -11,7 +11,7 @@ As of the project’s release date (2025-12-06), the original author has only pr
 
 ## Project Content
 
-- Based on the character **“Hei”** from the series [*The Legend of Hei*](https://www.bilibili.com/bangumi/play/ep32374), designed and created by **[漓翎_cub](https://space.bilibili.com/1013625945)**
+- Based on the character **“Hei”** from the series [*The Legend of Hei*](https://en.wikipedia.org/wiki/The_Legend_of_Hei), designed and created by **[漓翎_cub](https://space.bilibili.com/1013625945)**
 - **Mostly** animated cursors
 - Supports **24 / 32 / 48 / 64 / 96 / 128 / 192 / 256** pixel resolutions
 
