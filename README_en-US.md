@@ -35,7 +35,7 @@ paru -S hei-cursors-git
 
 **Or**, install manually **(not recommended, as `pacman` will not track the package)**.
 
-## Manual Installation (Other Distributions)
+## Other Distributions (Manual Installation)
 
 ### Install `git`
 
