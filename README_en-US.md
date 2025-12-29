@@ -2,6 +2,8 @@
 
 [中文](./README.md) | English
 
+![Banner](./banner.png)
+
 ## About
 
 - **Original Author**: [Bilibili @1013625945 (漓翎_cub)](https://space.bilibili.com/1013625945)

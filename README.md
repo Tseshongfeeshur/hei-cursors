@@ -2,6 +2,8 @@
 
 中文 | [English](./README_en-US.md)
 
+![封面](./banner.png)
+
 ## 关于项目
 
 - **原作者**：[哔哩哔哩 @1013625945（漓翎_cub）](https://space.bilibili.com/1013625945)
