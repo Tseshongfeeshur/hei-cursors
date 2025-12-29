@@ -9,7 +9,7 @@
 - **原作者**：[哔哩哔哩 @1013625945（漓翎_cub）](https://space.bilibili.com/1013625945)
 - 移植者：[GitHub @Tseshongfeeshur（Ryan）](https://github.com/Tseshongfeeshur)
 
-由于截至项目发布（2025.12.6），原作者仅为 Windows 和 MacOS 平台提供适配，尚未提供 GNU/Linux 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 GNU/Linux 用户使用。**特别感谢原作者的付出和努力，否则该移植项目不可能出现，我们也不可能用到如此精美的鼠标指针。**
+由于截至项目发布（2025.12.6），原作者仅为 Windows 和 MacOS 平台提供适配，尚未提供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 版本，遂将其移植为适用于大多数桌面环境的 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)，以供 [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 用户使用。**特别感谢原作者的付出和努力，否则该移植项目不可能出现，我们也不可能用到如此精美的鼠标指针。**
 
 ## 项目内容
 

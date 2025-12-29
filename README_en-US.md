@@ -9,7 +9,7 @@
 - **Original Author**: [Bilibili @1013625945 (漓翎_cub)](https://space.bilibili.com/1013625945)
 - **Ported by**: [GitHub @Tseshongfeeshur (Ryan)](https://github.com/Tseshongfeeshur)
 
-As of the project’s release date (2025-12-06), the original author has only provided versions for Windows and macOS. Since no GNU/Linux version was available, this theme has been ported into an [XDG cursor theme package](https://specifications.freedesktop.org/icon-theme/latest/) that works with most Linux desktop environments. **Great thanks to the original author — without his work, this port would not exist, and we wouldn’t be able to enjoy such a beautiful cursor theme.**
+As of the project’s release date (2025-12-06), the original author has only provided versions for Windows and macOS. Since no [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) version was available, this theme has been ported into an [XDG cursor theme package](https://specifications.freedesktop.org/icon-theme/latest/) that works with most [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) desktop environments. **Great thanks to the original author — without his work, this port would not exist, and we wouldn’t be able to enjoy such a beautiful cursor theme.**
 
 ## Project Content
 
