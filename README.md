@@ -41,7 +41,7 @@ yay -S hei-cursors-git
 
 ```bash
 sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/hei-cursors.github
+git clone https://aur.archlinux.org/hei-cursors-git.git
 cd hei-cursors
 makepkg -si
 ```
