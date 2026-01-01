@@ -26,13 +26,24 @@
 
 ### Arch Linux
 
+#### 使用 AUR 助手
+
 ```bash
-yay -S hei-cursors-git
+paru -S hei-cursors-git
 ```
 
 **或**选择其他您喜欢的 AUR 助手：
 ```bash
-paru -S hei-cursors-git
+yay -S hei-cursors-git
+```
+
+#### 手动安装 AUR 包
+
+```bash
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/hei-cursors.github
+cd hei-cursors
+makepkg -si
 ```
 
 **或**参见下文手动安装 **（不建议，会导致 `pacman` 无法追踪该包）**。

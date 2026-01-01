@@ -26,13 +26,24 @@ As of the project’s release date (2025-12-06), the original author has only pr
 
 ### Arch Linux
 
+#### Install with an AUR helper
+
 ```bash
-yay -S hei-cursors-git
+paru -S hei-cursors-git
 ```
 
 **Or**, using any other AUR helper you prefer:
 ```bash
-paru -S hei-cursors-git
+yay -S hei-cursors-git
+```
+
+#### Install the AUR package manually
+
+```bash
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/hei-cursors.github
+cd hei-cursors
+makepkg -si
 ```
 
 **Or**, install manually **(not recommended, as `pacman` will not track the package)**.
