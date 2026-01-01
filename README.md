@@ -19,7 +19,7 @@
 
 ## 适用平台
 
-- GNU/Linux 平台所有支持 XDG 主题包的桌面环境
+- [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) 平台所有支持 [XDG 主题包](https://specifications.freedesktop.org/icon-theme/latest/)的桌面环境
   - 在 [KDE Plasma](https://kde.org/plasma-desktop/)、[GNOME](https://www.gnome.org/) 通过测试，表现良好
 
 ## 安装方式
@@ -58,12 +58,14 @@ paru -S hei-cursors-git
 2. 为**当前用户**安装：
    ```bash
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
 
    **或**为**所有用户**安装 **（不建议）**：
    ```bash
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
 

@@ -19,7 +19,7 @@ As of the project’s release date (2025-12-06), the original author has only pr
 
 ## Supported Targets
 
-- All GNU/Linux desktop environments that support XDG cursor themes
+- All [GNU](https://www.gnu.org/)/[Linux](https://kernel.org/) desktop environments that support [XDG cursor themes](https://specifications.freedesktop.org/icon-theme/latest/)
   - Fully tested and works well under [KDE Plasma](https://kde.org/plasma-desktop/) and [GNOME](https://www.gnome.org/)
 
 ## Installation
@@ -60,12 +60,14 @@ paru -S hei-cursors-git
 2. Install for the **current user**:
    ```bash
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
    
    **Or**, install for **all users** **(not recommended)**:
    ```bash
    git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
 ## Applying the Cursor Theme
