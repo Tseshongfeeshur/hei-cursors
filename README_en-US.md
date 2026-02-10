@@ -26,7 +26,7 @@ As of the project’s release date (2025-12-06), the original author has only pr
 
 We recommend installing the pre-built package, so build-from-source installation steps are not provided here. Only the installation steps using the pre-built package are included.
 
-If you prefer to build and install it yourself, please use the build script located in the `sources` directory. That script can directly generate the theme folder.
+If you prefer to build and install it yourself, please use the build script located in the `sources` directory. That script can directly generate the theme folder. Arch Linux users can install the AUR package `hei-cursors-git`.
 
 ### Arch Linux
 
