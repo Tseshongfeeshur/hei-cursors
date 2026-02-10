@@ -24,25 +24,29 @@ As of the project’s release date (2025-12-06), the original author has only pr
 
 ## Installation
 
+We recommend installing the pre-built package, so build-from-source installation steps are not provided here. Only the installation steps using the pre-built package are included.
+
+If you prefer to build and install it yourself, please use the build script located in the `sources` directory. That script can directly generate the theme folder.
+
 ### Arch Linux
 
 #### Install with an AUR helper
 
-```bash
-paru -S hei-cursors-git
+```zsh
+paru -S hei-cursors-bin
 ```
 
 **Or**, using any other AUR helper you prefer:
-```bash
-yay -S hei-cursors-git
+```zsh
+yay -S hei-cursors-bin
 ```
 
 #### Install the AUR package manually
 
-```bash
+```zsh
 sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/hei-cursors-git.git
-cd hei-cursors-git
+git clone https://aur.archlinux.org/hei-cursors-bin.git
+cd hei-cursors-bin
 makepkg -si
 ```
 
@@ -50,34 +54,36 @@ makepkg -si
 
 ## Other Distributions (Manual Installation)
 
-### Install `git`
+### Install `curl` and `tar`
 
 - Debian
-  ```bash
+  ```zsh
   sudo apt update
-  sudo apt install git
+  sudo apt install curl tar
   ```
 
 - Fedora
-  ```bash
-  sudo dnf install git
+  ```zsh
+  sudo dnf install curl tar
   ```
 
 - Arch Linux
-  ```bash
-  sudo pacman -S git
+  ```zsh
+  sudo pacman -S curl tar
   ```
 
 2. Install for the **current user**:
-   ```bash
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   ```zsh
+   curl -L "https://github.com/Tseshongfeeshur/hei-cursors/releases/latest/download/hei-cursors.tar.gz" -o hei-cursors.tar.gz
+   tar -xzf hei-cursors.tar.gz
    mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
    
    **Or**, install for **all users** **(not recommended)**:
-   ```bash
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   ```zsh
+   curl -L "https://github.com/Tseshongfeeshur/hei-cursors/releases/latest/download/hei-cursors.tar.gz" -o hei-cursors.tar.gz
+   tar -xzf hei-cursors.tar.gz
    sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
@@ -86,7 +92,7 @@ makepkg -si
 ### KDE Plasma
 
 1. Open **System Settings → Appearance & Style → Colors & Themes → Cursors**, or run:
-   ```bash
+   ```zsh
    systemsettings kcm_cursortheme
    ```
 
@@ -97,25 +103,25 @@ makepkg -si
 
 1. Install `gnome-tweaks`
    - Debian
-     ```bash
+     ```zsh
      sudo apt update
      sudo apt install gnome-tweaks
      ```
 
    - Fedora
-     ```bash
+     ```zsh
      sudo dnf install gnome-tweaks
      ```
 
    - Arch Linux
-     ```bash
+     ```zsh
      sudo pacman -S gnome-tweaks
      ```
 
 2. Open **Tweaks → Appearance → Cursor**
 3. Select the "**Hei_cursor**" cursor theme from the dropdown list
 4. Optionally adjust the cursor size via command line:
-   ```bash
+   ```zsh
    gsettings set org.gnome.desktop.interface cursor-size $px
    # Replace $px with your desired size, e.g. 48
    ```

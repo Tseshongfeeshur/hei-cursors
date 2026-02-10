@@ -24,25 +24,29 @@
 
 ## 安装方式
 
+推荐安装预构建包，因此暂不提供自行构建安装步骤，仅提供使用预构建包安装的步骤。
+
+若希望自行构建安装，请使用 `sources` 目录内的构建脚本。该脚本可直接生成主题文件夹。
+
 ### Arch Linux
 
 #### 使用 AUR 助手
 
-```bash
-paru -S hei-cursors-git
+```zsh
+paru -S hei-cursors-bin
 ```
 
 **或**选择其他您喜欢的 AUR 助手：
-```bash
-yay -S hei-cursors-git
+```zsh
+yay -S hei-cursors-bin
 ```
 
 #### 手动安装 AUR 包
 
-```bash
+```zsh
 sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/hei-cursors-git.git
-cd hei-cursors-git
+git clone https://aur.archlinux.org/hei-cursors-bin.git
+cd hei-cursors-bin
 makepkg -si
 ```
 
@@ -50,32 +54,34 @@ makepkg -si
 
 ### 其他发行版（手动安装）
 
-1. 安装 `git`
+1. 安装 `curl` 和 `tar`
    - Debian
-     ```bash
+     ```zsh
      sudo apt update
-     sudo apt install git
+     sudo apt install curl tar
      ```
 
    - Fedora
-     ```bash
-     sudo dnf install git
+     ```zsh
+     sudo dnf install curl tar
      ```
    - Arch Linux
-     ```bash
-     sudo pacman -S git
+     ```zsh
+     sudo pacman -S curl tar
      ```
 
 2. 为**当前用户**安装：
-   ```bash
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   ```zsh
+   curl -L "https://github.com/Tseshongfeeshur/hei-cursors/releases/latest/download/hei-cursors.tar.gz" -o hei-cursors.tar.gz
+   tar -xzf hei-cursors.tar.gz
    mkdir -p ~/.local/share/icons/
    mv ./hei_cursors ~/.local/share/icons/
    ```
 
    **或**为**所有用户**安装 **（不建议）**：
-   ```bash
-   git clone https://github.com/Tseshongfeeshur/hei-cursors.git hei_cursors
+   ```zsh
+   curl -L "https://github.com/Tseshongfeeshur/hei-cursors/releases/latest/download/hei-cursors.tar.gz" -o hei-cursors.tar.gz
+   tar -xzf hei-cursors.tar.gz
    sudo mkdir -p /usr/share/icons/
    sudo mv ./hei_cursors /usr/share/icons/
    ```
@@ -85,7 +91,7 @@ makepkg -si
 ### KDE Plasma
 
 1. 导航至**系统设置 → 外观和样式 → 颜色和主题 → 光标**，或：
-   ```bash
+   ```zsh
    systemsettings kcm_cursortheme
    ```
 
@@ -96,25 +102,25 @@ makepkg -si
 
 1. 安装 `gnome-tweaks`
    - Debian
-     ```bash
+     ```zsh
      sudo apt update
      sudo apt install gnome-tweaks
      ```
 
    - Fedora
-     ```bash
+     ```zsh
      sudo dnf install gnome-tweaks
      ```
 
    - Arch Linux
-     ```bash
+     ```zsh
      sudo pacman -S gnome-tweaks
      ```
 
 2. 导航至**优化 → 外观 → 光标**
 3. 单击下拉菜单，选择“**Hei_cursor**”光标样式
 4. 选择观感舒适的光标大小：
-   ```bash
+   ```zsh
    gsettings set org.gnome.desktop.interface cursor-size $px
    # 将“$px”改为您需要的像素值，如 48
    ```
